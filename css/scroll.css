@@ -1,0 +1,5 @@
+@charset "utf-8";
+::-webkit-scrollbar { width: 6px; height: 6px; background: #222; } /* width */
+::-webkit-scrollbar-track { background: #222; border-radius: 5px; } /* Track */
+::-webkit-scrollbar-thumb { background: #666; border-radius: 5px; } /* Handle */
+::-webkit-scrollbar-thumb:hover { background: #555; } /* Handle on hover */
