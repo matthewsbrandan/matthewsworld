@@ -1,3 +1,4 @@
+![MatthewsWorld](https://matthewsworld.life/img/logo-dash.png)
 # Matthews World
 
 **Description:** MatthewsWorld é onde convergem todas as minhas aplicações, todo meu portifólio. Como uma estação de trem que direciona para todas as outras existentes.
@@ -59,7 +60,3 @@
 ## Developed by
 
 [Mateus Brandão](https://github.com/matthewsbrandan).
-
-## Trilha
-
-[Youtube] (https://www.youtube.com/watch?v=43ecnyXFyoE)
