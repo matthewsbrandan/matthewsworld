@@ -34,7 +34,7 @@
 
 ## Features
 
-- [ ][4/8] Logar em um e ter acesso em todos
+[4/8] Logar em um e ter acesso em todos
 - [ ] Ver status de todas as aplicações pelo MatthewsWorld
 - [ ] Implementação do WhatsMatth
 - [ ] Guia de utilização do software
@@ -64,7 +64,7 @@
 - Quais arquivos foram ignorados?
     - Arquivos com dados de acesso ao banco.
     - CSS, JQuery e JS Bootstrap, pois podem ser baixados diretamente pelo site [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/)
-    - Todos os sites dentro do MatthewsWorld foram ignorados, pois terão um repositório próprio para tratar exclusiva dele.
+    - Todos os sites dentro do MatthewsWorld foram ignorados, pois terão um repositório próprio para tratar exclusivamente deles.
 
 ## Developed by
 
