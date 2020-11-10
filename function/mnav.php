@@ -19,7 +19,7 @@
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body rounded" style="background-image: url('<?php echo $retornos; ?>img/branco.jpg')">
-                <a  href="https://www.matthewsworld.life/"
+                <a  href="https://www.matthewsworld.me/"
                     class="modal-title text-decoration-none text-dark float-left link-navigate"
                     style="text-shadow: 0px 0px 10px rgba(0,0,0,.2);">
                     <span class="material-icons">home</span>

@@ -28,7 +28,7 @@
           <div class="d-block bg-<?php echo inweb==0?'warning':'info';?> text-center mt-3 rounded"><?php echo inweb==0?'off-line':'on-line';?></div>
           <h1 class="mt-2">Backup Database - <?php echo "bd_".$_GET['page']; ?> </h1>
           <div class="table-responsive">
-            <form method="POST" action="<?php echo inweb==1?'http://localhost/matthewsworld.life/back/':'https://www.matthewsworld.life/back/';?>backup_finaliza.php?page=<?php echo $_GET['page'].'&tbl='; echo isset($_POST['todos'])?$_POST['todos']:$_POST['tabela']; ?>">
+            <form method="POST" action="<?php echo inweb==1?'http://localhost/matthewsworld.me/back/':'https://www.matthewsworld.me/back/';?>backup_finaliza.php?page=<?php echo $_GET['page'].'&tbl='; echo isset($_POST['todos'])?$_POST['todos']:$_POST['tabela']; ?>">
                 <?php
                 function isView($column){
                     $retorno = false;

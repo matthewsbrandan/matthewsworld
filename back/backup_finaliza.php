@@ -89,8 +89,8 @@
                 <?php }?>
             <?php } ?>
             <div class="mx-auto m-4" style="max-width: 400px;">
-            <a href="http://localhost/matthewsworld.life/dashboard/" class="btn btn-outline-primary btn-block mx-auto">LocalHost</a>
-            <a href="https://www.matthewsworld.life/dashboard/" class="btn btn-outline-primary btn-block mx-auto">Hospedagem Web</a>
+            <a href="http://localhost/matthewsworld.me/dashboard/" class="btn btn-outline-primary btn-block mx-auto">LocalHost</a>
+            <a href="https://www.matthewsworld.me/dashboard/" class="btn btn-outline-primary btn-block mx-auto">Hospedagem Web</a>
             </div>
           </div>
         </div>
