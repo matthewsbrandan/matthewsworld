@@ -45,25 +45,26 @@
 - **back**: Backend da Aplicação
 - **conn**: Conexão com o Banco
 - **css**: Bootstrap
+- **function**: Funções reutilizadas em outras páginas
+- **img**: Imagens
 - **jquery**: Bootstrap
 - **js**: Bootstrap
 
 
 ## Bancos de dados
 
-- **bd_himym**
-- **bd_lworld**
-- **bd_mtech**
-- **bd_mtworld**
-- **bd_pctrl**
-- **bd_pmatth**
-- **bd_wmatth**
+- **bd_himym:** How I Met Your Mother
+- **bd_lworld:** Literary World
+- **bd_mtech:** Matthews Technology
+- **bd_mtworld:** Matthews World
+- **bd_pctrl:** Personal Control
+- **bd_pmatth:** Play Matth
+- **bd_wmatth:** Whats Matth
 
 ## .gitignore
 
 - Quais arquivos foram ignorados?
     - Arquivos com dados de acesso ao banco.
-    - CSS, JQuery e JS Bootstrap, pois podem ser baixados diretamente pelo site [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/)
     - Todos os sites dentro do MatthewsWorld foram ignorados, pois terão um repositório próprio para tratar exclusivamente deles.
 
 ## Developed by
