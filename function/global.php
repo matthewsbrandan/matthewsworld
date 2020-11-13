@@ -57,7 +57,7 @@
     if(isset($_SESSION['user_mtworld'])&&$_SESSION['user_mtworld']>0){
         include($retornos.'function/ctrlm.php');
         include($retornos.'function/mnav.php');
-        include($retornos.'function/arty.php');
-        include($retornos.'function/wmatth.php');
+        // include($retornos.'function/arty.php');
+        // include($retornos.'function/wmatth.php');
     }
 ?>
