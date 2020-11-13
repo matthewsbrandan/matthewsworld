@@ -129,7 +129,10 @@
           $(div).show('slow');
       }
       $(function(){
-          v = <?php echo isset($_GET['page'])?$_GET['page']:1; ?>;
+          v = <?php 
+            if(isset($_GET['contato'])) echo 4;
+            else echo isset($_GET['page'])?$_GET['page']:1;   
+          ?>;
           $('.nav-item').removeClass('active');
           $('.nav-item:nth-child('+v+')').addClass('active'); v++;
           $('section:nth-child('+v+')').show('slow');
@@ -579,8 +582,6 @@
   <script src="jquery/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   </main>
-  <?php
-    include('function/global.php');    
-  ?>
+  <?php include('function/global.php'); ?>
 </body>
 </html>

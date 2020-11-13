@@ -27,9 +27,9 @@
         $retornos="";
         $locPath = getcwd();
         if(!inweb) $locPath = str_replace('\\','/',$locPath);
-        $locPath = substr($locPath,strpos($locPath,'matthewsworld.me'));
-        if(strlen($locPath)>18){
-            $locPath = substr($locPath,18);
+        $locPath = substr($locPath,strpos($locPath,'matthewsworld.me'));        
+        if(strlen($locPath)>16){
+            $locPath = substr($locPath,16);
             $qtdRetornos = substr_count($locPath,"/");
             if($qtdRetornos>0){
                 $retornos = str_repeat('../',$qtdRetornos);
@@ -43,17 +43,17 @@
             if(isset($_COOKIE['mtworldPass'])&&isset($_COOKIE['mtworldKey'])){
                 $sql="select * from usuario where email='{$_COOKIE['mtworldPass']}' and senha='{$_COOKIE['mtworldKey']}';";
                 if($linha = (enviarComand($sql,'bd_mtworld'))->fetch_assoc()){
-                $_SESSION['user_mtworld'] = $linha['id'];
-                $_SESSION['user_mtworld_nome'] = $linha['nome'];
-                $_SESSION['user_mtworld_email'] = $linha['email'];
+                    $_SESSION['user_mtworld'] = $linha['id'];
+                    $_SESSION['user_mtworld_nome'] = $linha['nome'];
+                    $_SESSION['user_mtworld_email'] = $linha['email'];
                 } 
             }
         }
-        return isset($__SESSION[user_mtword])?true:false;
+        return isset($__SESSION['user_mtword'])?true:false;
     }
 
-    if(!isset($retornos)) $retornos = locPath();
-    
+    $retornos = locPath();
+
     if(isset($_SESSION['user_mtworld'])&&$_SESSION['user_mtworld']>0){
         include($retornos.'function/ctrlm.php');
         include($retornos.'function/mnav.php');

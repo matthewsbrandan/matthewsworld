@@ -6,8 +6,8 @@
     $locPath = getcwd();
     if(!inweb) $locPath = str_replace('\\','/',$locPath);
     $locPath = substr($locPath,strpos($locPath,'matthewsworld.me'));
-    if(strlen($locPath)>18){
-        $locPath = substr($locPath,18);
+    if(strlen($locPath)>16){
+        $locPath = substr($locPath,16);
         $qtdRetornos = substr_count($locPath,"/");
         if($qtdRetornos>0){
             $retornos = str_repeat('../',$qtdRetornos);
